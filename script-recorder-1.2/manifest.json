@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Script Recorder",
+    "version": "1.2",
+    "description": "A simple web request monitor that exports a JSON.",
+      "permissions": ["webRequest","https://*/*"],
+    "background": {
+        "scripts": [ "background.js"]
+    },
+    "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Script Recorder"
+    },
+
+    "icons": {
+      "128": "logo.png"
+    }
+
+}
